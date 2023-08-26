@@ -14,3 +14,39 @@ sans-serif;*/
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --g-font-size: 16px;
+    --big-font-size: 1.4rem;
+    --small-font-size: 1rem;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+main {
+    width: 95%;
+}
+
+.nav-wrapper {
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+}
+
+.Container-main {
+    margin: 0 auto;
+    width: 85%;
+}
+
+
+.logo {
+    width: 40%;
+}
+
+.links ul {
+    display: flex;
+    width: 60%;
+    align-content: center;
+}
