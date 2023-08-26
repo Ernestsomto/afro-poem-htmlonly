@@ -50,3 +50,54 @@ main {
     width: 60%;
     align-content: center;
 }
+
+.links a {
+    width: 10%;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.box-link {
+    width: 60%;
+    color: white;
+    background-color: red;
+    margin: 5px 0px;
+    padding: 15px 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.poem-wrapper {
+    margin: 10px 0px;
+    display: flex;
+    border: 2px solid black;
+
+}
+
+.Author-links ul {
+    margin: 10px;
+
+}
+
+.Author-links a {
+    text-decoration: none;
+}
+
+.Author-links ul>li {
+    padding: 15px 0px;
+    list-style-type: none;
+}
+
+.poem-main {
+    margin: 15px;
+}
+
+.poet-info {
+    margin: 15px;
+}
