@@ -45,6 +45,11 @@ main {
     width: 40%;
 }
 
+.links {
+    width:100%;
+    display:flex;
+}
+
 .links ul {
     display: flex;
     width: 60%;
