@@ -224,3 +224,120 @@ hr {
     text-align: center;
 
 }
+
+@media (max-width:800px) {
+
+    .nav-wrapper,
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    .logo-h {
+        width: 100%;
+        text-align: center;
+    }
+
+    .links ul {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 10px auto;
+
+    }
+
+    .links li {
+        margin: 5px;
+
+    }
+
+    .img-left {
+        display: none;
+    }
+
+    .info {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .heading-text {
+        width: 100%;
+    }
+
+    .box-wrapper {
+        width: 100%;
+    }
+
+    .box-link {
+        width: 100%;
+    }
+
+    .Author-links ul {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .Author-links li {
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    .poem-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .poet-info {
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .poet-img {
+        margin: 0 auto;
+        padding: 0px;
+        width: 70%;
+
+    }
+
+    .poem-main {
+        width: 100%;
+        text-align: center;
+        margin: 5px auto;
+
+    }
+
+    .poem-text>h4 {
+        text-align: center;
+    }
+
+    .summary {
+        width: 100%;
+        text-align: center;
+    }
+
+    .F-logo {
+        width: 100%;
+    }
+
+    .logo {
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+    }
+
+    .Footer-links ul {
+        display: none;
+    }
+}
