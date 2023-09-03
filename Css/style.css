@@ -43,21 +43,19 @@ body {
 }
 
 .logo {
-    width: 20%;
+    width: 30%;
     padding: 5px;
+}
+
+.menu {
+    width: 80%;
 }
 
 .nav {
     width: 80%;
     height: 100%;
-    position: fixed;
     overflow: hidden;
 
-}
-
-.nav {
-    max-height: 0;
-    transition: max-height .5s ease-out;
 }
 
 .links ul {
@@ -246,7 +244,7 @@ hr {
     justify-content: space-between;
     background: linear-gradient(to left, #f46b45, #eea849);
     color: #FFF;
-    height: 50px;
+    height: 80px;
     padding: 1em;
 }
 
@@ -256,12 +254,17 @@ hr {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    justify-content: space-between;
 }
 
 .menu>li {
-    margin: 0 1rem;
+    padding: 0px 5px;
+    font-size: 18px;
     overflow: hidden;
 }
+
+.menu>a {}
+
 
 .menu-button-container {
     display: none;
@@ -312,8 +315,6 @@ hr {
     margin-top: 0px;
     transform: rotate(-405deg);
 }
-
-@media (max-width: 700px) {}
 
 @media (max-width:786px) {
 
