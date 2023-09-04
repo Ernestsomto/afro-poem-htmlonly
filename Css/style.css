@@ -118,7 +118,6 @@ body {
 .info {
     display: flex;
     padding: 5px;
-    align-items: center;
 }
 
 .hero-img {
@@ -133,6 +132,10 @@ body {
 
 .heading-text {
     padding: 0px 20px;
+}
+
+.poems {
+    color: #f3d5ab;
 }
 
 .heading-text>h3 {
