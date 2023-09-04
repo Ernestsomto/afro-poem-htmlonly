@@ -20,7 +20,7 @@ sans-serif;*/
     --g-font-size: 16px;
     --big-font-size: 1.4rem;
     --small-font-size: 1rem;
-    --primary-color: #f1f2ed;
+    --primary-color: #f7f8f3;
 }
 
 body {
@@ -116,10 +116,12 @@ body {
 }
 
 .info {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
     padding: 5px;
+}
+
+.img-left {
+    width: 75%;
 }
 
 .hero-img {
@@ -130,7 +132,6 @@ body {
 
 .heading-text {
     padding: 0px 20px;
-    width: 100%;
 }
 
 .heading-text>h3 {
@@ -272,115 +273,11 @@ hr {
 
 }
 
-
-
-.nav-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-}
-
-.links li {
-    margin: 5px;
-
-}
-
-
-
-.info {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-}
-
-.heading-text {
-    width: 100%;
-    padding: 0px;
-    text-align: center;
-
-}
-
-.heading-text h3 {
-    font-size: 2.3rem;
-}
-
-.box-wrapper {
-    width: 100%;
-}
-
-.box-link {
-    width: 100%;
-}
-
-.Author-links ul {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    width: 100%;
-    margin: 0px auto;
-}
-
-.Author-links li {
-    width: 100%;
-    margin: 5px auto;
-}
-
-.poem-wrapper {
-    display: flex;
-    flex-direction: column;
-}
-
-.poet-info {
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-
-}
-
-.poet-img {
-    margin: 0 auto;
-    padding: 0px;
-    width: 70%;
-
-}
-
-.poem-main {
-    width: 100%;
-    text-align: center;
-    margin: 5px auto;
-
-}
-
-.poem-text>h4 {
-    text-align: center;
-}
-
-.summary {
-    width: 100%;
-    text-align: center;
-}
-
-.F-logo {
-    width: 100%;
-}
-
-.logo {
-    margin: 0px;
-    padding: 0px;
-    text-align: left;
-}
-
-.Footer-links ul {
-    display: none;
-}
-
-
 @media (max-width:786px) {
+
+    .box-link {
+        width: 100%;
+    }
 
     .img-left {
         display: none;
@@ -428,6 +325,121 @@ hr {
 
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #444;
+
     }
 
+    .info {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .heading-text {
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+
+    }
+
+    .heading-text h3 {
+        font-size: 2.3rem;
+    }
+
+    .box-link {
+        width: 100%;
+    }
+
+    .Author-links ul {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+
+    .Author-links li {
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    .poem-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .poet-info {
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .poet-img {
+        margin: 0 auto;
+        padding: 0px;
+        width: 70%;
+
+    }
+
+    .poem-main {
+        width: 100%;
+        text-align: center;
+        margin: 5px auto;
+
+    }
+
+    .poem-text>h4 {
+        text-align: center;
+    }
+
+    .summary {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Footer-menu ul {
+        display: none;
+
+    }
 }
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.F-logo {
+    width: 100%;
+}
+
+.logo {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+
+}*/
