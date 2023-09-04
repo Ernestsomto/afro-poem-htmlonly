@@ -118,16 +118,17 @@ body {
 .info {
     display: flex;
     padding: 5px;
-}
-
-.img-left {
-    width: 75%;
+    align-items: center;
 }
 
 .hero-img {
     width: 100%;
     padding: 10px;
 
+}
+
+.Hero-area {
+    width: 100%;
 }
 
 .heading-text {
@@ -209,6 +210,11 @@ body {
 
 }
 
+.poem-leading {
+    width: 100%;
+    line-height: 1.9;
+}
+
 .poet-img {
     width: 80%;
     border-radius: 10px;
@@ -275,7 +281,7 @@ hr {
 
 }
 
-@media (max-width:786px) {
+@media (max-width:900px) {
 
     .box-link {
         width: 100%;
