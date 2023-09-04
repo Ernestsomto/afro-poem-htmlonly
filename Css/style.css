@@ -183,30 +183,22 @@ body {
     justify-content: center;
 }
 
-.Author-links ul {
-    margin: 10px;
+.poem-text>h4 {
+    font-size: 1.4rem;
+
+}
+
+.summary {
+    line-height: 1.9;
 }
 
 .Author-links a {
-    font-size: 1rem;
-    display: flex;
+    font-size: 1.3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     margin: 5px;
     padding: 5px;
-}
-
-.Author-links li {
-    background-image: var(--linear-gradient-prim);
-    list-style-type: none;
-    border-radius: 20px;
-    margin: 0px 5px;
-}
-
-.Author-links ul {
-    font-size: 1.12rem;
-    display: flex;
-    justify-content: space-between;
 }
 
 .poem-main {
