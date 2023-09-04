@@ -135,6 +135,7 @@ body {
 }
 
 .heading-text>h3 {
+    text-align: center;
     font-size: 2.5rem;
 }
 
@@ -153,9 +154,9 @@ body {
 }
 
 .box-link {
-    width: 40%;
+    width: 45%;
     color: white;
-    background-color: red;
+    background-image: var(--linear-gradient-prim);
     margin: 35px 0px;
     padding: 15px 0px;
     border-top-right-radius: 20px;
@@ -175,6 +176,7 @@ body {
 }
 
 .Author-links a {
+    font-size: 1rem;
     display: flex;
     text-decoration: none;
     color: #fff;
@@ -183,7 +185,7 @@ body {
 }
 
 .Author-links li {
-    background-color: #000;
+    background-image: var(--linear-gradient-prim);
     list-style-type: none;
     border-radius: 20px;
     margin: 0px 5px;
