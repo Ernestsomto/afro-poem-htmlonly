@@ -55,6 +55,14 @@ body {
     overflow: hidden;
 }
 
+.menu>li>a {
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #f7f8f3;
+
+}
+
 
 .menu-button-container {
     display: none;
@@ -270,8 +278,9 @@ body {
 
 .Footer-menu ul {
     display: flex;
-    font-size: .8rem;
+    font-size: .9rem;
     list-style-type: none;
+    align-items: center;
 
 
 }
