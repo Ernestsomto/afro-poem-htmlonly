@@ -152,7 +152,6 @@ body {
 }
 
 .heading-text>p {
-
     line-height: 1.4;
     font-size: 1.32rem;
 }
@@ -192,8 +191,15 @@ body {
     line-height: 1.9;
 }
 
+.Author-links {
+    margin: 20px 0px;
+
+}
+
 .Author-links a {
-    font-size: 1.3rem;
+    border-bottom: 2px solid #f8a590;
+    font-size: 1.5rem;
+    font-weight: 600;
     font-family: 'Montserrat Alternates', sans-serif;
     text-decoration: none;
     color: #000;
@@ -213,6 +219,11 @@ body {
 
 }
 
+.text-info>h3 {
+    margin-top: 15px;
+    font-weight: 400;
+}
+
 .poem-leading {
     width: 100%;
     line-height: 1.9;
@@ -221,6 +232,26 @@ body {
 .poet-img {
     width: 80%;
     border-radius: 10px;
+}
+
+.btn-main {
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: inline-block;
+    border-radius: 10px;
+    background-image: var(--linear-gradient-prim);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 15px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-main a {
+    text-decoration: none;
+    color: #f7f8f3;
 }
 
 .footer-wrapper {
