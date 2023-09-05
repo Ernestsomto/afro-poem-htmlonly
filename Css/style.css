@@ -59,7 +59,7 @@ body {
     font-size: 1.15rem;
     font-weight: 600;
     text-decoration: none;
-    color: #f7f8f3;
+    color: var(--primary-color);
 
 }
 
@@ -82,7 +82,7 @@ body {
 .menu-button::before,
 .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: #f7f8f3;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -371,12 +371,16 @@ hr {
         padding: 0.5em 0;
         width: 100%;
         color: white;
-        background-color: #222;
+        background-color: var(--primary-color);
     }
 
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #444;
 
+    }
+
+    .menu>li>a {
+        color: #f3d5ab;
     }
 
     .info {
