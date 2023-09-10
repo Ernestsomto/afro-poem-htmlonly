@@ -276,28 +276,6 @@ body {
     width: 90%;
 }
 
-.Footer-menu ul {
-    display: flex;
-    font-size: .9rem;
-    list-style-type: none;
-    align-items: center;
-
-
-}
-
-.Footer-menu li {
-    padding: 10px;
-    border-radius: 20px;
-    background-color: #000;
-    margin: 0px 10px;
-}
-
-.Footer-menu a {
-    text-decoration: none;
-    margin: 0px 10px;
-    color: #fff;
-}
-
 .wrapper-socials>ul {
     margin: 40px;
     font-size: 1.1rem;
@@ -454,11 +432,6 @@ hr {
     .summary {
         width: 100%;
         text-align: center;
-    }
-
-    .Footer-menu ul {
-        display: none;
-
     }
 }
 
