@@ -310,12 +310,12 @@ body {
 hr {
     background-color: #f8a590;
     border: solid 1px #f8a590;
-    margin: 0px auto;
+    margin: 15px auto;
     width: 50%;
 }
 
 .copyright {
-    margin: 5px auto;
+    margin: 0px auto;
     width: 90%;
     text-align: center;
 
