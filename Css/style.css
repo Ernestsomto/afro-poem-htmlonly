@@ -17,6 +17,7 @@ sans-serif;*/
 
 :root {
     --linear-gradient-prim: linear-gradient(to left, #f8a590, #f3d5ab);
+    --linear-gradient-secon: linear-gradient(to right, #f8a570, #f3d5ab);
     --g-font-size: 16px;
     --big-font-size: 1.4rem;
     --small-font-size: 1rem;
@@ -120,7 +121,7 @@ body {
 }
 
 .menu {
-    width: 80%;
+    width: 65%;
 }
 
 .info {
@@ -134,8 +135,14 @@ body {
 
 }
 
+.wrapper-1 {
+    width: 100%;
+    background-image: var(--linear-gradient-prim);
+}
+
 .Hero-area {
     width: 100%;
+
 }
 
 .heading-text {
