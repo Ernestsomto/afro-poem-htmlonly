@@ -15,9 +15,13 @@ sans-serif;*/
     box-sizing: border-box;
 }
 
+main {
+    width: 100%;
+}
+
 :root {
-    --linear-gradient-prim: linear-gradient(to left, #f8a590, #f3d5ab);
-    --linear-gradient-secon: linear-gradient(to right, #f8a570, #f3d5ab);
+    --linear-gradient-prim: linear-gradient(to right, #f3d5ab, #f8a590);
+    --linear-gradient-secon: linear-gradient(to right, #e6b8a0, #f8a590);
     --g-font-size: 16px;
     --big-font-size: 1.4rem;
     --small-font-size: 1rem;
@@ -36,9 +40,9 @@ body {
     align-items: center;
     justify-content: space-between;
     background: var(--linear-gradient-prim);
-    color: var(--primary-color);
+    color: #fff;
     height: 80px;
-    padding: 1em;
+    padding: .6rem;
 }
 
 .menu {
@@ -48,11 +52,12 @@ body {
     margin: 0;
     padding: 0;
     justify-content: space-between;
+    color: #fff;
 }
 
 .menu>li {
-    padding: 0px 5px;
-    font-size: 18px;
+    padding: 0px 6px;
+    font-size: 14px;
     overflow: hidden;
 }
 
@@ -60,8 +65,12 @@ body {
     font-size: 1.15rem;
     font-weight: 600;
     text-decoration: none;
-    color: var(--primary-color);
+    color: #fff;
 
+}
+
+.menu>li a:hover {
+    border-bottom: #fff solid 1px;
 }
 
 
@@ -120,6 +129,80 @@ body {
     width: 85%;
 }
 
+.Container-main-home {
+    margin: 40px auto;
+    max-width: 98%;
+    display: flex;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.container-wrapper-2 {
+    color: #fff;
+    background-image: var(--linear-gradient-prim);
+    margin: 40px auto;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.wrapper-cta {
+    width: 100%;
+    height: 400px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.Catalog-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.poem-catl-wrapper {
+    width: 100%;
+}
+
+.Catalog-card img {
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 40px;
+
+}
+
+.showcase-head h5 {
+    margin-top: 10px;
+}
+
+.Catalog-card-Nig,
+.Catalog-card-South,
+.Catalog-card-ethp,
+.Catalog-card-keny,
+.Catalog-card-moro {
+    padding: 20px;
+    margin: 15px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 10px;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Container-main-home h3 {
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 5px;
+}
+
 .menu {
     width: 65%;
 }
@@ -127,6 +210,7 @@ body {
 .info {
     display: flex;
     padding: 5px;
+    align-items: center;
 }
 
 .hero-img {
@@ -136,7 +220,7 @@ body {
 }
 
 .wrapper-1 {
-    color: #f6eedb;
+    color: #fff;
     width: 100%;
     background-image: var(--linear-gradient-prim);
 }
@@ -151,26 +235,34 @@ body {
 }
 
 .poems {
-    color: #491d6a;
+    color: #6c3097;
 }
 
 .heading-text>h3 {
-    text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.7rem;
 }
 
 .heading-text>blockquote {
-    margin: 35px 0px;
+    width: 85%;
+    margin: 15px 0px;
+    padding: 5px;
     text-align: justify;
-    line-height: 1.4;
-    font-size: 1.32rem;
+    line-height: 1.6;
+    font-size: 1.6rem;
 
 }
 
 .heading-text>p {
+    width: 85%;
     line-height: 1.4;
-    font-size: 1.32rem;
+    font-size: 1.6rem;
 }
+
+.showcase-area {
+    width: 100%;
+}
+
+
 
 .box-link {
     width: 45%;
@@ -265,6 +357,49 @@ body {
     margin: 5px;
 }
 
+.btn-main-head {
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: inline-block;
+    border-radius: 10px;
+    background-image: var(--linear-gradient-secon);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px;
+    width: 250px;
+    cursor: pointer;
+    margin: 20px 0px;
+
+}
+
+.btn-main-head>a {
+    text-decoration: none;
+    color: #f7f8f3;
+
+}
+
+.btn-main-poems {
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: inline-block;
+    border-radius: 10px;
+    background-image: var(--linear-gradient-prim);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 7px;
+    width: 200px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.btn-main-poems a {
+    text-decoration: none;
+    color: #f7f8f3;
+}
+
+
 .btn-main a {
     text-decoration: none;
     color: #f7f8f3;
@@ -275,12 +410,10 @@ body {
     color: var(--primary-color);
     display: flex;
     width: 100%;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .footer-info {
-    width: 95%;
+    width: 100%;
     display: flex;
     align-items: center;
 
@@ -288,8 +421,9 @@ body {
 
 .F-logo {
     width: 90%;
-    padding: 25px;
+    padding: 20px;
 }
+
 
 .Social-info {
     margin: 40px;
@@ -330,6 +464,14 @@ hr {
 }
 
 @media (max-width:900px) {
+    .top-nav {
+        padding: .4rem;
+    }
+
+    .logo-head {
+        font-size: .9rem;
+        width: 95%;
+    }
 
     .box-link {
         width: 100%;
@@ -401,8 +543,69 @@ hr {
 
     }
 
+    .Catalog-card {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .Catalog-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Catalog-card img {
+        width: 100%;
+    }
+
+    .Catalog-card-Nig,
+    .Catalog-card-South,
+    .Catalog-card-ethp,
+    .Catalog-card-keny,
+    .Catalog-card-moro {
+        margin: 5px auto;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .showcase-head {
+        margin-top: 20px;
+    }
+
     .heading-text h3 {
-        font-size: 2.3rem;
+        font-size: 1.75rem;
+    }
+
+    .heading-text>blockquote {
+        font-size: 1.05rem;
+        line-height: 1.4;
+        width: 95%;
+        margin: 10px auto;
+        color: #fff;
+    }
+
+    .heading-text>p {
+        width: 95%;
+        margin: 5px auto;
+        font-size: 1.05rem;
+    }
+
+    .container-wrapper-2 {
+        height: 270px;
+    }
+
+    .container-wrapper-2 {
+        font-size: 1.05rem;
+    }
+
+    .container-wrapper-2 p {
+        padding: 15px;
+
     }
 
     .box-link {
@@ -422,6 +625,42 @@ hr {
     .Author-links li {
         width: 100%;
         margin: 5px auto;
+    }
+
+    .btn-main-head {
+        font-family: 'Montserrat Alternates', sans-serif;
+        display: inline-block;
+        border-radius: 10px;
+        background-image: var(--linear-gradient-secon);
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 1rem;
+        padding: 15px;
+        width: 200px;
+        cursor: pointer;
+        margin: 20px 0px;
+
+    }
+
+    .btn-main-poems {
+        font-family: 'Montserrat Alternates', sans-serif;
+        display: inline-block;
+        border-radius: 10px;
+        background-image: var(--linear-gradient-prim);
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: .9rem;
+        padding: 10px;
+        width: 150px;
+        cursor: pointer;
+        margin: 15px;
+    }
+
+    .btn-main-poems a {
+        text-decoration: none;
+        color: #f7f8f3;
     }
 
     .poem-wrapper {
@@ -460,6 +699,38 @@ hr {
         width: 100%;
         text-align: center;
     }
+
+    .footer-info {
+        display: flex;
+
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .F-logo {
+        padding: 10px;
+    }
+
+    .F-logo>p {
+        font-size: 1rem;
+        align-items: end;
+    }
+
+    .Social-info {
+        margin: 20px;
+    }
+
+    .Social-info>ul {
+        font-size: .9rem;
+    }
+
+    .copyright {
+        padding-bottom: 25px;
+        font-size: .85rem;
+    }
+
 }
 
 

@@ -1,0 +1,358 @@
+# Query: src
+# Flags: CaseSensitive WordMatch
+# ContextLines: 1
+
+70 results - 36 files
+
+index.html:
+  109                  <div class="img-left">
+  110                  <div class="img-left">
+  111:                     <img class="hero-img" src="images/Poetry vector image.gif" alt="Image-photo">
+
+  111                  </div>
+  112                  </div>
+
+  149                          <div class="Catalog-card-Nig">
+  150                          <div class="Catalog-card-Nig">
+  151:                             <img src="/images/patrict culluan.jpg" alt="">
+
+  151                              <div class="showcase-head">
+  152                              <div class="showcase-head">
+
+  158                          <div class="Catalog-card-South">
+  159                          <div class="Catalog-card-South">
+  160:                            <img src="/images/patrict culluan.jpg" alt="">
+
+  160                              <div class="showcase-head">
+  161                              <div class="showcase-head">
+
+  167                          <div class="Catalog-card-ethp">
+  168                          <div class="Catalog-card-ethp">
+  169:                            <img src="/images/patrict culluan.jpg" alt="">
+
+  169                              <div class="showcase-head">
+  170                              <div class="showcase-head">
+
+  176                          <div class="Catalog-card-keny">
+  177                          <div class="Catalog-card-keny">
+  178:                            <img src="/images/patrict culluan.jpg" alt="">
+
+  178                              <div class="showcase-head">
+  179                              <div class="showcase-head">
+
+  183                          </div>
+  184                          </div>
+  185:                         <div class="Catalog-card-moro"> <img src="/images/patrict culluan.jpg" alt="">
+  185                              <div class="showcase-head">
+  186                              <div class="showcase-head">
+
+Src\Ethiopia.html:
+   34                      <div class="img-left">
+   35:                         <img class="hero-img" src="images/poetry image.png" alt="Image-photo">
+   36                      </div>
+
+   61                      <!--Author No1-->
+   62:                     <img class="poet-img" src="/images/Tsgaye-Gebremdehin 2.avif" alt="Avatar">
+   63                      <div class="text-info">
+
+   98                      <!--Author No2-->
+   99:                     <img class="poet-img" src="/images/Mengistu 2" alt="Avatar">
+  100                      <div class="text-info">
+
+  136                      <!--Author No3-->
+  137:                     <img class="poet-img" src="/images/Bewketu 3.jpg" alt="Avatar">
+  138                      <div class="text-info">
+
+  174                      <!--Author No4-->
+  175:                     <img class="poet-img" src="/images/solomon-deressa-2.webp" alt="Avatar">
+  176                      <div class="text-info">
+
+  212                      <!--Author No5-->
+  213:                     <img class="poet-img" src="/images/Hama Tuma 1.jfif" alt="Avatar">
+  214                      <div class="text-info">
+
+  250                      <!--Author No6-->
+  251:                     <img class="poet-img" src="/images/Tafari 2.jfif" alt="Avatar">
+  252                      <div class="text-info">
+
+Src\Kenyan.html:
+   34                      <div class="img-left">
+   35:                         <img class="hero-img" src="images/poetry image.png" alt="Image-photo">
+   36                      </div>
+
+   62                      <!--Author No1-->
+   63:                     <img class="poet-img" src="/images/_khadambi 1.jpg" alt="Avatar">
+   64                      <div class="text-info">
+
+  100                      <!--Author No2-->
+  101:                     <img class="poet-img" src="/images/Mugo 3.jpg" alt="Avatar">
+  102                      <div class="text-info">
+
+  138                      <!--Author No3-->
+  139:                     <img class="poet-img" src="/images/marjorie1.jpg" alt="Avatar">
+  140                      <div class="text-info">
+
+  176                      <!--Author No4-->
+  177:                     <img class="poet-img" src="/images/mukoma2.jpg" alt="Avatar">
+  178                      <div class="text-info">
+
+  214                      <!--Author No5-->
+  215:                     <img class="poet-img" src="/images/Mochama1.webp" alt="Avatar">
+  216                      <div class="text-info">
+
+  252                      <!--Author No6-->
+  253:                     <img class="poet-img" src="/images/jona2.jfif" alt="Avatar">
+  254                      <div class="text-info">
+
+Src\Moroccan.html:
+   34                      <div class="img-left">
+   35:                         <img class="hero-img" src="images/poetry image.png" alt="Image-photo">
+   36                      </div>
+
+   62                      <!--Author No1-->
+   63:                     <img class="poet-img" src="/images/Laabi.jfif" alt="Avatar">
+   64                      <div class="text-info">
+
+  100                      <!--Author No2-->
+  101:                     <img class="poet-img" src="/images/Seddik 3.jpg" alt="Avatar">
+  102                      <div class="text-info">
+
+  139                      <!--Author No3-->
+  140:                     <img class="poet-img" src="/images/Zrika 1.jpg" alt="Avatar">
+  141                      <div class="text-info">
+
+  177                      <!--Author No4-->
+  178:                     <img class="poet-img" src="/images/Tahar 3.jfif" alt="Avatar">
+  179                      <div class="text-info">
+
+  215                      <!--Author No5-->
+  216:                     <img class="poet-img" src="/images/Bennis.jpg" alt="Avatar">
+  217                      <div class="text-info">
+
+  252                      <!--Author No6-->
+  253:                     <img class="poet-img" src="/images/wafaa 1.jpg" alt="Avatar">
+  254                      <div class="text-info">
+
+Src\Nigerian.html:
+   18                      <!--Author No1-->
+   19:                     <img class="poet-img" src="/images/Wole-Soyinka-Photo-@ademide25-1.jpeg" alt="Avatar">
+   20                      <div class="text-info">
+
+   57                      <!--Author No2-->
+   58:                     <img class="poet-img" src="/images/acholonu-header-cartherine.webp" alt="Avatar">
+   59                      <div class="text-info">
+
+   96                      <!--Author No3-->
+   97:                     <img class="poet-img" src="/images/Cyprian_Ekwensi_image.jpg" alt="Avatar">
+   98                      <div class="text-info">
+
+  135                      <!--Author No4-->
+  136:                     <img class="poet-img" src="/images/Niyi4.jpg" alt="Avatar">
+  137                      <div class="text-info">
+
+  174                      <!--Author No5-->
+  175:                     <img class="poet-img" src="/images/chriss2.jfif" alt="Avatar">
+  176                      <div class="text-info">
+
+  212                      <!--Author No6-->
+  213:                     <img class="poet-img" src="/images/J.p clarkmain.jpg" alt="Avatar">
+  214                      <div class="text-info">
+
+Src\SouthAfrica.html:
+   33                      <div class="img-left">
+   34                      <div class="img-left">
+   35:                         <img class="hero-img" src="images/poetry image.png" alt="Image-photo">
+
+   35                      </div>
+   36                      </div>
+
+   61                      <!--Author No1-->
+   62                      <!--Author No1-->
+   63:                     <img class="poet-img" src="/images/Keorapetse.jfif" alt="Avatar">
+
+   63                      <div class="text-info">
+   64                      <div class="text-info">
+
+   99                      <!--Author No2-->
+  100                      <!--Author No2-->
+  101:                     <img class="poet-img" src="/images/patrict culluan.jpg" alt="Avatar">
+
+  101                      <div class="text-info">
+  102                      <div class="text-info">
+
+  137                      <!--Author No3-->
+  138                      <!--Author No3-->
+  139:                     <img class="poet-img" src="/images/Antjie 2.jfif" alt="Avatar">
+
+  139                      <div class="text-info">
+  140                      <div class="text-info">
+
+  175                      <!--Author No4-->
+  176                      <!--Author No4-->
+  177:                     <img class="poet-img" src="/images/Tatamkhulu 3.jpg" alt="Avatar">
+
+  177                      <div class="text-info">
+  178                      <div class="text-info">
+
+  213                      <!--Author No5-->
+  214                      <!--Author No5-->
+  215:                     <img class="poet-img" src="/images/Vonani Bila.jfif" alt="Avatar">
+
+  215                      <div class="text-info">
+  216                      <div class="text-info">
+
+  250                      <!--Author No6-->
+  251                      <!--Author No6-->
+  252:                     <img class="poet-img" src="/images/Lebo 5.jfif" alt="Avatar" type="image/jfif" >
+  252                      <div class="text-info">
+  253                      <div class="text-info">
+
+Src\Ethiopian-authors\author1.html:
+  48                      <!--Author No1-->
+  49:                     <img class="poet-img" src="/images/Tsgaye-Gebremdehin 2.avif" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Ethiopian-authors\author2.html:
+  48                      <!--Author No2-->
+  49:                     <img class="poet-img" src="/images/Mengistu 2" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Ethiopian-authors\author3.html:
+  48                      <!--Author No3-->
+  49:                     <img class="poet-img" src="/images/Bewketu 3.jpg" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Ethiopian-authors\author4.html:
+  47                      <!--Author No4-->
+  48:                     <img class="poet-img" src="/images/solomon-deressa-2.webp" alt="Avatar">
+  49                      <div class="text-info">
+
+Src\Ethiopian-authors\author5.html:
+  48                      <!--Author No5-->
+  49:                     <img class="poet-img" src="/images/Hama Tuma 1.jfif" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Ethiopian-authors\author6.html:
+  44                      <!--Author No6-->
+  45:                     <img class="poet-img" src="/images/Tafari 2.jfif" alt="Avatar">
+  46                      <div class="text-info">
+
+Src\Kenyan-authors\author1.html:
+  48                      <!--Author No1-->
+  49:                     <img class="poet-img" src="/images/_khadambi 1.jpg" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Kenyan-authors\author2.html:
+  48                      <!--Author No2-->
+  49:                     <img class="poet-img" src="/images/Mugo 3.jpg" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Kenyan-authors\author3.html:
+  48                      <!--Author No3-->
+  49:                     <img class="poet-img" src="/images/marjorie1.jpg" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Kenyan-authors\author4.html:
+  47                      <!--Author No4-->
+  48:                     <img class="poet-img" src="/images/mukoma2.jpg" alt="Avatar">
+  49                      <div class="text-info">
+
+Src\Kenyan-authors\author5.html:
+  48                      <!--Author No5-->
+  49:                     <img class="poet-img" src="/images/Mochama1.webp" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Kenyan-authors\author6.html:
+  48                      <!--Author No6-->
+  49:                     <img class="poet-img" src="/images/jona.jfif" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Moroccan-authors\author1.html:
+  48                  <!--Author No1-->
+  49:                 <img class="poet-img" src="/images/Laabi.jfif" alt="Avatar">
+  50                  <div class="text-info">
+
+Src\Moroccan-authors\author2.html:
+  48                      <!--Author No2-->
+  49:                     <img class="poet-img" src="/images/Seddik 3.jpg" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Moroccan-authors\author3.html:
+  48                       <!--Author No3-->
+  49:                      <img class="poet-img" src="/images/Zrika 1.jpg" alt="Avatar">
+  50                       <div class="text-info">
+
+Src\Moroccan-authors\author4.html:
+  47                      <!--Author No4-->
+  48:                     <img class="poet-img" src="/images/Tahar 3.jfif" alt="Avatar">
+  49                      <div class="text-info">
+
+Src\Moroccan-authors\author5.html:
+  48                      <!--Author No5-->
+  49:                     <img class="poet-img" src="/images/Bennis.jpg" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Moroccan-authors\author6.html:
+  48                      <!--Author No6-->
+  49:                     <img class="poet-img" src="/images/wafaa 1.jpg" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Nigerian-authors\author1.html:
+  48                      <!--Author No1-->
+  49:                     <img class="poet-img" src="/images/Wole-Soyinka-Photo-@ademide25-1.jpeg" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Nigerian-authors\author2.html:
+  48                      <!--Author No2-->
+  49:                     <img class="poet-img" src="/images/acholonu-header-cartherine.webp" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Nigerian-authors\author3.html:
+  48                      <!--Author No3-->
+  49:                     <img class="poet-img" src="/images/Cyprian_Ekwensi_image.jpg" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Nigerian-authors\author4.html:
+  48                      <!--Author No4-->
+  49:                     <img class="poet-img" src="/images/Niyi4.jpg" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\Nigerian-authors\author5.html:
+  49                      <!--Author No5-->
+  50:                     <img class="poet-img" src="/images/chriss2.jfif" alt="Avatar">
+  51                      <div class="text-info">
+
+Src\Nigerian-authors\author6.html:
+  48                      <!--Author No6-->
+  49:                     <img class="poet-img" src="/images/J.p clarkmain.jpg" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\South-african authors\author1.html:
+  48                      <!--Author No1-->
+  49:                     <img class="poet-img" src="/images/Keorapetse.jfif" alt="Avatar">
+  50                      <div class="text-info">
+
+Src\South-african authors\author2.html:
+  47                      <!--Author No2-->
+  48:                     <img class="poet-img" src="/images/patrict culluan.jpg" alt="Avatar">
+  49                      <div class="text-info">
+
+Src\South-african authors\author3.html:
+  48                       <!--Author No3-->
+  49:                      <img class="poet-img" src="/images/Antjie 2.jfif" alt="Avatar">
+  50                       <div class="text-info">
+
+Src\South-african authors\author4.html:
+  48                          <!--Author No4-->
+  49:                         <img class="poet-img" src="/images/Tatamkhulu 3.jpg" alt="Avatar">
+  50                          <div class="text-info">
+
+Src\South-african authors\author5.html:
+  47                      <!--Author No5-->
+  48:                     <img class="poet-img" src="/images/Vonani Bila.jfif" alt="Avatar">
+  49                      <div class="text-info">
+
+Src\South-african authors\author6.html:
+  48                      <!--Author No6-->
+  49:                     <img class="poet-img" src="/images/Lebo 5.jfif" alt="Avatar" type="image/jfif" >
+  50                      <div class="text-info">
